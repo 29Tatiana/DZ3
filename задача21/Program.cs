@@ -8,8 +8,8 @@ int y1 = int.Parse(parts_A[1]);
 int z1 = int.Parse(parts_A[2]);
 
 Console.Write("Введите координаты точка В: x2 y2 z2: ");
-string point2 = Console.ReadLine()!;
-string[] parts_B = point2.Split(' ');
+string point_B = Console.ReadLine()!;
+string[] parts_B = point_B.Split(' ');
 int x2 = int.Parse(parts_B[0]);
 int y2 = int.Parse(parts_B[1]);
 int z2 = int.Parse(parts_B[2]);
